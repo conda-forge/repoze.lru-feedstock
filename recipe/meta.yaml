@@ -33,9 +33,11 @@ test:
 
 about:
   home: http://www.repoze.org
-  license: BSD Modification Variant
+  license: BSD-3-Clause AND 0BSD
   license_family: BSD
-  license_file: LICENSE.txt
+  license_file:
+    - COPYRIGHT.txt
+    - LICENSE.txt
   summary: A tiny LRU cache implementation and decorator
   dev_url: https://github.com/repoze/repoze.lru
 
