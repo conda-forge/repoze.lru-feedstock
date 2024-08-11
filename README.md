@@ -146,4 +146,5 @@ Feedstock Maintainers
 =====================
 
 * [@nicoddemus](https://github.com/nicoddemus/)
+* [@rxm7706](https://github.com/rxm7706/)
 
