@@ -1,18 +1,18 @@
 {% set name = "repoze.lru" %}
-{% set version = "0.7" %}
+{% set version = "0.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/repoze.lru-{{ version }}.tar.gz
-  sha256: 0429a75e19380e4ed50c0694e26ac8819b4ea7851ee1fc7583c8572db80aff77
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/repoze_lru-{{ version }}.tar.gz
+  sha256: a252408cd93fe670c88d6665b96fe5d42e071dba2507a1f21a1e609ae4fa891a
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 2
+  number: 0
 
 requirements:
   host:
