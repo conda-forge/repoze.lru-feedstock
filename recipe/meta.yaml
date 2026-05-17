@@ -2,8 +2,8 @@
 {% set version = "0.8" %}
 
 package:
-  name: {{ name|lower }}
-  version: {{ version }}
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/repoze_lru-{{ version }}.tar.gz
